@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return """
     <center>
-        <h1>Hello World!</h1>
+        <h1><marquee> Hello World!</marquee></h1>
         <h2>Status projektu: Aktywny</h2>
         <p>Aplikacja zostala zbudowana przez GitHub Actions i wdrożona w klastrze Kubernetes.</p>
         <hr width="50%">
