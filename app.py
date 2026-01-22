@@ -6,8 +6,8 @@ app = Flask(__name__)
 def home():
     return """
     <center>
-        <h1>Hello World! Pipeline CI/CD dziala poprawnie!</h1>
-        <h2>Status projektu: Aktywny (Wersja 2.0)</h2>
+        <h1>Hello World!</h1>
+        <h2>Status projektu: Aktywny</h2>
         <p>Aplikacja zostala zbudowana przez GitHub Actions i wdrożona w klastrze Kubernetes.</p>
         <hr width="50%">
         <p><i>Ostatnia aktualizacja: 22 stycznia 2026</i></p>
